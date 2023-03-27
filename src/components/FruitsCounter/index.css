@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.fruits-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #ffd569;
+}
+
+.back-container {
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 18px;
+  border-width: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fruit-head {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 32px;
+}
+.count {
+  color: #ffd569;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.fruitcontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+.fruit-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  padding: 12px;
+}
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 95px;
+  height: 45px;
+  background-color: #007bff;
+  padding: 5px;
+  margin: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
